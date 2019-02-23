@@ -11,7 +11,7 @@
   "bugs": {
     "url": "https://github.com/icg-course/icg_labwork1/issues"
   },
-  "homepage": "https://github.com/icg2018/icg_labwork1",
+  "homepage": "https://github.com/icg-course/icg_labwork1",
   "devDependencies": {
     "grunt": "^0.4.4",
     "grunt-xml-validator": "^1.1.3"
