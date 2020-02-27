@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/icg-course/icg_labwork1.svg?branch=gh-pages)](https://travis-ci.org/icg-course/icg_labwork1)
+[![Build Status](https://travis-ci.com/icg-course/icg_labwork1.svg?branch=gh-pages)](https://travis-ci.com/icg-course/icg_labwork1)
 # Репозиторий лабораторной работы №1 (Геометрические примитивы, преобразования, материалы, текстурирование)
 
 Данный репозиторий предназначен для выполнения и сдачи лабораторной работы №1.
