@@ -7,11 +7,7 @@ branches:
     - gh-pages
     - /.*/
 before_install: npm install -g fast-xml-parser
-script: 
-  - [ -f *.html ] && xml2js -V *.html 
-  - [ -f *.htm ] && xml2js -V *.htm 
-  - [ -f *.xml ] && xml2js -V *.xml 
-  - [ -f *.x3d ] && xml2js -V *.x3d
+script: xml2js -V *.html 
 cache:
   directories:
     - node_modules
