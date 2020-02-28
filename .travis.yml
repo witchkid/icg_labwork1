@@ -8,10 +8,10 @@ branches:
     - /.*/
 before_install: npm install -g fast-xml-parser
 script: 
-  - xml2js -V *.html 
-  - xml2js -V *.htm 
-  - xml2js -V *.xml 
-  - xml2js -V *.x3d
+  - [ -f *.html ] && xml2js -V *.html 
+  - [ -f *.htm ] && xml2js -V *.htm 
+  - [ -f *.xml ] && xml2js -V *.xml 
+  - [ -f *.x3d ] && xml2js -V *.x3d
 cache:
   directories:
     - node_modules
